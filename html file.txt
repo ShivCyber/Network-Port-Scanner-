@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shivam Patil | AI & Cybersecurity Portfolio</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+AOS.init({
+    duration:1000,
+    once:true
+});
+</script>
+<body>
+
+<div id="loader">
+    <!-- Animated Background -->
+<div class="background">
+<div class="circle c1"></div>
+<div class="circle c2"></div>
+<div class="circle c3"></div>
+<div class="circle c4"></div>
+</div>
+    <div class="loader-circle"></div>
+    <h2>Loading Portfolio...</h2>
+    </div>    
+<header>
+    <div class="logo">Shivam Patil</div>
+<nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+</nav>
+</header>
+
+<section class="hero" id="home">
+<div class="hero-text">
+
+<h3>Hello, I'm</h3>
+<h1>Shivam Patil</h1>
+<h2>B.Tech AI Student</h2>
+<p id="typing"></p>
+
+    <div class="buttons">
+
+            <a href="resume.pdf" class="btn" target="_blank">
+                Download Resume
+            </a>
+
+            <a href="https://github.com/ShivCyber" target="_blank" class="btn2">
+                GitHub
+            </a>
+
+            <a href="https://www.linkedin.com/in/shivam-patil-794097310"
+                target="_blank"
+                class="btn2">
+                LinkedIn
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="hero-image">
+
+        <img src="images/profile.jpg">
+
+    </div>
+
+</section>
+<!-- ================= STATS ================= -->
+
+<section id="stats">
+
+<div class="stats-container">
+
+<div class="stat-card">
+
+<h1>3+</h1>
+
+<p>Projects Completed</p>
+
+</div>
+
+<div class="stat-card">
+
+<h1>5+</h1>
+
+<p>Certifications</p>
+
+</div>
+
+<div class="stat-card">
+
+<h1>1</h1>
+
+<p>Internship Completed</p>
+
+</div>
+
+<div class="stat-card">
+
+<h1>12+</h1>
+
+<p>Technical Skills</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ABOUT SECTION -->
+
+<section class="about" id="about" data-aos="fade-up"></section>
+
+<div class="section-title">
+<h2>About Me</h2>
+</div>
+
+<div class="about-container">
+
+<div class="about-card">
+
+<p>
+
+🚀 Final Year B.Tech Artificial Intelligence student at
+GH Raisoni College of Engineering & Management, Jalgaon,
+with a strong interest in Artificial Intelligence,
+Cybersecurity, and Web Development.
+
+<br><br>
+
+Skilled in Python, Flask, Web Security,
+Machine Learning and Generative AI tools through projects,
+internships and certifications.
+
+<br><br>
+
+Passionate about solving real-world problems,
+learning modern technologies and building secure applications.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- EDUCATION -->
+
+<section id="education" data-aos="fade-right"></section>
+
+<div class="section-title">
+<h2>Education</h2>
+</div>
+
+<div class="timeline">
+
+<div class="timeline-box">
+
+<h3>B.Tech Artificial Intelligence</h3>
+
+<h4>GH Raisoni College of Engineering & Management</h4>
+
+<p>
+
+2023 - 2027
+
+<br>
+
+CGPA : 7.50 / 10.0
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- INTERNSHIP -->
+
+<section id="internship" data-aos="fade-left"></section>
+
+<div class="section-title">
+<h2>Internship</h2>
+</div>
+
+<div class="timeline-box">
+
+<h3>Cybersecurity & AI Intern</h3>
+
+<h4>TDO Tech Education Pvt. Ltd.</h4>
+
+<p>
+
+Worked on Cybersecurity Fundamentals,
+
+Network Security,
+
+Vulnerability Assessment,
+
+Kali Linux,
+
+Nmap,
+
+Wireshark,
+
+Burp Suite,
+
+TryHackMe.
+
+</p>
+
+</div>
+
+</section>
+
+<!-- ================= SKILLS ================= -->
+
+<section id="skills" data-aos="fade-up">
+    <div class="progress-container">
+
+<div class="progress-box">
+<h4>Python</h4>
+<div class="progress">
+<div class="progress-fill" style="width:90%;">90%</div>
+</div>
+</div>
+
+<div class="progress-box">
+<h4>Flask</h4>
+<div class="progress">
+<div class="progress-fill" style="width:85%;">85%</div>
+</div>
+</div>
+
+<div class="progress-box">
+<h4>Cybersecurity</h4>
+<div class="progress">
+<div class="progress-fill" style="width:80%;">80%</div>
+</div>
+</div>
+
+<div class="progress-box">
+<h4>HTML & CSS</h4>
+<div class="progress">
+<div class="progress-fill" style="width:88%;">88%</div>
+</div>
+</div>
+
+</div>
+
+    <div class="section-title">
+        <h2>Technical Skills</h2>
+    </div>
+
+    <div class="skills-container">
+
+        <div class="skill-card">
+            <i class="fab fa-python"></i>
+            <h3>Python</h3>
+        </div>
+
+        <div class="skill-card">
+            <i class="fab fa-html5"></i>
+            <h3>HTML5</h3>
+        </div>
+
+        <div class="skill-card">
+            <i class="fab fa-css3-alt"></i>
+            <h3>CSS3</h3>
+        </div>
+
+        <div class="skill-card">
+            <i class="fas fa-code"></i>
+            <h3>Flask</h3>
+        </div>
+
+        <div class="skill-card">
+            <i class="fas fa-database"></i>
+            <h3>SQLite</h3>
+        </div>
+
+        <div class="skill-card">
+            <i class="fas fa-server"></i>
+            <h3>MySQL</h3>
+        </div>
+
+        <div class="skill-card">
+            <i class="fab fa-git-alt"></i>
+            <h3>Git</h3>
+        </div>
+
+        <div class="skill-card">
+            <i class="fab fa-github"></i>
+            <h3>GitHub</h3>
+        </div>
+
+        <div class="skill-card">
+            <i class="fas fa-terminal"></i>
+            <h3>Kali Linux</h3>
+        </div>
+
+        <div class="skill-card">
+            <i class="fas fa-network-wired"></i>
+            <h3>Nmap</h3>
+        </div>
+
+        <div class="skill-card">
+            <i class="fas fa-shield-alt"></i>
+            <h3>Wireshark</h3>
+        </div>
+
+        <div class="skill-card">
+            <i class="fas fa-bug"></i>
+            <h3>Burp Suite</h3>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= PROJECTS ================= -->
+
+<section id="projects" data-aos="zoom-in-up"></section>
+
+<div class="section-title">
+
+<h2>Featured Projects</h2>
+
+</div>
+
+<div class="projects-grid">
+
+<div class="project-card">
+
+<h3>🛡 Smart Phishing Detection System</h3>
+
+<p>
+
+Machine Learning based web application that detects phishing URLs using Python, Flask and Scikit-learn.
+
+</p>
+
+<div class="tech">
+
+Python • Flask • HTML • CSS • ML • Scikit-learn
+
+</div>
+
+<a href="https://github.com/ShivCyber" target="_blank">
+
+View Project
+
+</a>
+
+</div>
+
+<div class="project-card">
+
+<h3>🔐 Secure Authentication System</h3>
+
+<p>
+
+Secure Login & Registration System with Password Hashing, Session Management and SQLite Database.
+
+</p>
+
+<div class="tech">
+
+Python • Flask • SQLite • HTML • CSS
+
+</div>
+
+<a href="https://github.com/ShivCyber" target="_blank">
+
+View Project
+
+</a>
+
+</div>
+
+<div class="project-card">
+
+<h3>🌐 Network Port Scanner</h3>
+
+<p>
+
+Python based TCP Port Scanner developed using Socket Programming for network security.
+
+</p>
+
+<div class="tech">
+
+Python • Socket • Networking • Kali Linux
+
+</div>
+
+<a href="https://github.com/ShivCyber" target="_blank">
+
+View Project
+
+</a>
+
+</div>
+
+</div>
+
+</section>
+<!-- CERTIFICATES -->
+
+<section id="certificates" data-aos="zoom-in"></section>
+
+<div class="section-title">
+
+<h2>Certifications</h2>
+<div class="certificate-grid">
+
+<div class="certificate-card">
+
+Cybersecurity
+
+</div>
+
+<div class="certificate-card">
+
+Exploratory Data Analysis
+
+</div>
+
+<div class="certificate-card">
+
+Generative AI Tools
+
+</div>
+
+<div class="certificate-card">
+
+Technical English for Engineers (NPTEL)
+
+</div>
+
+<div class="certificate-card">
+
+Cybersecurity Internship
+
+</div>
+
+</div>
+
+</section>
+<!-- ================= CONTACT ================= -->
+
+<section id="contact" data-aos="fade-up"></section>
+
+<div class="section-title">
+<h2>Contact Me</h2>
+</div>
+
+<div class="contact-container">
+
+<div class="contact-card">
+
+<h3>Get In Touch</h3>
+
+<p>
+Feel free to contact me for internships,
+projects, collaborations or career opportunities.
+</p>
+
+<div class="contact-info">
+
+<p><i class="fas fa-envelope"></i> shivampatil3100@gmail.com</p>
+
+<p><i class="fas fa-phone"></i> +91 9209313100</p>
+
+<p><i class="fas fa-map-marker-alt"></i> Jalgaon, Maharashtra, India</p>
+
+<p>
+<i class="fab fa-github"></i>
+
+<a href="https://github.com/ShivCyber" target="_blank">
+GitHub Profile
+</a>
+
+</p>
+
+<p>
+
+<i class="fab fa-linkedin"></i>
+
+<a href="https://www.linkedin.com/in/shivam-patil-794097310"
+target="_blank">
+
+LinkedIn Profile
+
+</a>
+
+</p>
+
+</div>
+
+<div class="contact-buttons">
+
+<a href="resume.pdf" target="_blank" class="btn">
+
+Download Resume
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+<button id="topBtn">
+
+<i class="fas fa-arrow-up"></i>
+
+</button>
+
+<footer>
+
+<div class="footer-content">
+
+<h3>Shivam Pravin Patil</h3>
+
+<p>
+B.Tech Artificial Intelligence Student |
+Cybersecurity Enthusiast |
+Python Developer
+</p>
+
+<div class="footer-links">
+
+<a href="https://github.com/ShivCyber" target="_blank">
+<i class="fab fa-github"></i>
+</a>
+
+<a href="https://www.linkedin.com/in/shivam-patil-794097310" target="_blank">
+<i class="fab fa-linkedin"></i>
+</a>
+
+<a href="mailto:shivampatil3100@gmail.com">
+<i class="fas fa-envelope"></i>
+</a>
+
+</div>
+
+<p class="copyright">
+
+© 2026 Shivam Pravin Patil. All Rights Reserved.
+
+</p>
+
+</div>
+
+</footer>
+<script src="script.js"></script>
+
+</body>
+
+</html>
